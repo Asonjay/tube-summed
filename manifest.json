@@ -1,0 +1,13 @@
+{
+    "name": "Tube Summed",
+    "description": "Youtube key point summarizer",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background":{
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["storage"]
+}
